@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '502d65cc-73a4-47f0-9359-39a1816f2570'
+  dockerRegistryServiceConnection: chatgpt
   imageRepository: 'acrforcicdproj'
   containerRegistry: 'acrforcicdproj.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
